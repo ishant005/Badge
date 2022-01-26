@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+html{
+    font-size: 100%;
+}
+body{
+    background-color: rgb(250, 245, 245);
+}
+.container{
+ margin: 4rem;    
+}
+.badge{
+    background-color: blue;
+    position: relative;
+    height: 1rem;
+    width: 1rem;
+    /* padding: 4px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* font-size: 14px; */
+    border-radius: 3rem;
+    /* padding: 3px 7px; */
+    color: white;
+    font-weight: 500;
+     top: -1.6rem; 
+    right: -8rem; 
+}
+.small-text{
+    font-weight: bold;
+}
+/* ************************large badge********************** */
+.large-badge{
+    background-color: blue;
+    position: relative;
+    height: 2rem;
+    width: 2rem;
+    /* padding: 4px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* font-size: 14px; */
+    border-radius: 3rem;
+    /* padding: 3px 7px; */
+    color: white;
+    font-weight: 500;
+     top: -2.8rem; 
+    right: -14.9rem; */
+}
+.large-text{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* *********************button with a badge on the left */
+.button-badge{
+    background-color: rgb(243, 74, 102);
+    position: relative;
+    height: 2rem;
+    width: 2rem;
+    /* padding: 4px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* font-size: 14px; */
+    border-radius: 3rem;
+    /* padding: 3px 7px; */
+    color: white;
+    font-weight: 500;
+     top: -3rem; 
+    right: 1.1rem; 
+
+}
+.button-text{
+     height: 2rem;
+     width: 4rem;
+     color: white;
+     background-color: blue;
+     border: none;
+     border-radius: 4px;
+     padding: 4px;
+     cursor: pointer;
+}
+.button-text:hover{
+    opacity: 85%;
+}
+
+/************* button with a badge on the right side **********/
+.toggle-btn{
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  box-shadow: 0px 0px 1px rgb(37, 37, 37);
+}
+.button-badge-right{
+    background-color:blue;
+    position: relative;
+    height: 2rem;
+    width: 2rem;
+    /* padding: 4px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:bolder;
+    /* font-size: 14px; */
+    border-radius: 3rem;
+    /* padding: 3px 7px; */
+    color: white;
+    font-weight: 500;
+     top: -3.3rem; 
+    left: 3rem; 
+
+}
+.hidden{
+    display: none;
+}
+/* *********icon with badge **********8*/
+.icon{
+    font-size: 1.6rem;
+    
+
+}
+.icon-badge{
+    background-color:blue;
+    position: relative;
+    height: 1.7rem;
+    width: 1.7rem;
+    /* padding: 4px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:bolder;
+    /* font-size: 14px; */
+    border-radius: 50%;
+    /* padding: 3px 7px; */
+    color: white;
+    font-weight: 500;
+     top: -2.8rem; 
+    left: 1rem; 
+
+}
